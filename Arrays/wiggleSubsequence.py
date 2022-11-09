@@ -1,5 +1,9 @@
 '''
 Leetcode: 376
+[1,17,5,10,13,15,10,5,16,8]
+[1,1,1,1,1,1,1,3,1,1] =pos
+[1,1,1,1,1,1,1,1,2,1] = neg
+
 '''
 
 
@@ -21,3 +25,5 @@ class Solution(object):
                     neg_wig[i]=max(neg_wig[i],1+pos_wig[j])
         return max(max(pos_wig),max(neg_wig))
         
+
+

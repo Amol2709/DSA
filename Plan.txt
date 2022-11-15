@@ -1,0 +1,91 @@
+*** November Plan **********
+
+
+
+https://leetcode.com/problems/partition-labels/
+https://leetcode.com/problems/sum-of-two-integers/
+https://leetcode.com/problems/word-break-ii/description/
+https://leetcode.com/problems/max-points-on-a-line/
+https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+https://leetcode.com/problems/count-and-say/
+https://leetcode.com/problems/gas-station/
+https://leetcode.com/problems/shuffle-an-array/
+https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+https://leetcode.com/problems/roman-to-integer/
+https://leetcode.com/problems/decode-string/
+https://leetcode.com/problems/next-permutation/
+https://leetcode.com/problems/path-sum-iii/
+
+3 hrs: weekdays
+*************
+
+12 : saturday (DSA: Revision) 1 session
+13 : sunday   (DSA: Revison)  3 session
+
+Target : HLD,LLD , SQL
+14 : LLD: 2 hrs , DSA: 1 New Question (30 min) , Revise 2 Topic: 30 min 
+15 : HLD: 2 hrs , DSA: 1 New Question (30 min) , Revise 2 Topic: 30 min
+16 : LLD: 2 hrs , DSA: 1 New Question (30 min) , Revise 2 Topic: 30 min
+17 : HLD: 2 hrs , DSA: 1 New Question (30 min) , Revise 2 Topic: 30 min
+18 : LLD: 2 hrs , DSA: 1 New Question (30 min) , Revise 2 Topic: 30 min
+
+19 : saturday :  HLD, DSA: 2 New Question ( 60 min) , Revise 2 Topic: 30 min 
+20 : sunday :    LLD, DSA: 2 New Question ( 60 min) , Revise 2 Topic: 30 min 
+
+21  HLD, DSA: 1 New Question ( 30 min) , Revise 2 Topic: 30 min 
+22  LLD, DSA: 1 New Question ( 30 min) , Revise 2 Topic: 30 min 
+23  HLD, DSA: 1 New Question ( 30 min) , Revise 2 Topic: 30 min 
+24  LLD, DSA: 1 New Question ( 30 min) , Revise 2 Topic: 30 min 
+25  HLD, DSA: 1 New Question ( 30 min) , Revise 2 Topic: 30 min 
+
+26  :saturday : 
+27 : sunday :
+
+***************************************************************************
+DataBase Concepts
+Django
+docker 
+kubernetes
+
+28
+29
+30
+1
+2
+3
+4
+5
+6
+*********************************************************************************
+Post Stack: (15----------27)
+	1. Django : Done
+	2. Kafka as Streaming Service
+	3. Redshift as data warehouse
+	4. Postgre as primary DB
+	5. Scylla as secondary DB
+
+
+
+******************************************** Upcoming Skillset*****************************
+
+BIGDATA: 
+GCP Cloud :
+ Cloud DataBase Engineer
+ Data Enginner 
+ Cloud Architect
+
+
+
+    ETL, Data Warehouse Concept
+    Redshift
+    NoSQL
+
+Apache World:
+
+    Hadoop Architechture: HDFS, Map Reduce, Yarn
+    Apache Spark,: Spark Streaming, Spark Core, Spark SQL,
+    APache Hive
+    Apache Kafka
+
+
+

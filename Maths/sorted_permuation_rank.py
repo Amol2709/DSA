@@ -1,5 +1,6 @@
 '''
-Given a string, S find the rank of the string amongst all its permutations sorted lexicographically.
+Given a string, S find the rank of the string amongst all its permutations
+ sorted lexicographically.
 The rank can be big. So print it modulo 1000003. 
 Note: Return 0 if the characters are repeated in the string.
 '''

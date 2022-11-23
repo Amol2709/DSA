@@ -1,35 +1,23 @@
 # Definition for a binary tree node.
-# class TreeNode(object):
+# class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
-    def pathSum(self, root, targetSum):
-        """
-        :type root: TreeNode
-        :type targetSum: int
-        :rtype: int
-        """
+class Solution:
+    def pathSum(self, root, targetSum: int) -> int:
         self.count = 0
-        self.sum = targetSum
-        def runDFS(node, arr):
-            if not node:
-                return arr
-            
-            tmp = []
-            for num in arr:
-                tmp.append(num+node.val)
-            arr = tmp+[node.val]
-            
-
-            for num in arr:
-                if num == self.sum:
-                    self.count += 1
-
-            runDFS(node.left, arr)
-            runDFS(node.right, arr)
-
-        runDFS(root, [])
+        self.target = targetSum
+        self.func(root,[])
         return self.count
-        
+    def func(self,node,arr):
+        if node == None:
+            return
+        tmp_arr =[node.val]+arr
+        curr_val = 0
+        for elem in tmp_arr:
+            curr_val+=elem
+            if curr_val == self.target:
+                self.count+=1
+        self.func(node.left,tmp_arr)
+        self.func(node.right,tmp_arr)

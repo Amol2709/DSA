@@ -2,7 +2,7 @@ class Solution:
     # @param A : list of integers
     # @param B : integer
     # @return a list of integers
-    def solve(self, A, B):
+    def solve(self, A, B): 
         import heapq
         min_heap=[]
         heapq.heapify(min_heap)

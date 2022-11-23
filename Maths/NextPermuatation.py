@@ -3,6 +3,22 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
+        12345
+        12354
+        12435
+        12453
+        12534
+        12543
+
+        13245
+        13254
+        13425
+        13452
+
+
+
+        54321
+
         """
         n = len(nums)
         index = -1

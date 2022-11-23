@@ -1,3 +1,20 @@
+'''
+Surprisingly, in an alien language, they also use English lowercase letters, 
+but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.
+
+Given an array of words A of size N written in the alien language, 
+and the order of the alphabet denoted by string B of size 26, return 1 if and only
+ if the given words are sorted lexicographically in this alien language else, return 0.
+
+ A = ["hello", "scaler", "interviewbit"]
+ B = "adhbcfegskjlponmirqtxwuvzy"
+o/p=1
+
+  A = ["fine", "none", "no"]
+ B = "qwertyuiopasdfghjklzxcvbnm"
+ o/p=0
+'''
+
 class Solution:
     # @param A : list of strings
     # @param B : string
@@ -19,9 +36,9 @@ class Solution:
                 
                 ptr1+=1
                 ptr2+=1
-            if ptr1<n1 or ptr2<n2:
-                return False
-            return True
+            # if ptr1<n1 or ptr2<n2:
+            #     return False
+            # return True
         while(index<len(A)):
             if _map[A[index-1][0]] == _map[A[index][0]]:
                 if check(index):
